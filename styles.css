@@ -96,3 +96,21 @@ li {
     text-decoration: none;
     background-color: black;
 }
+
+@media screen and (max-width:600px) {
+    #input-field {
+        width: 65vw;
+    }
+
+    #add-btn {
+        width: 15vw;
+    }
+
+    ul {
+        max-height: 42vh;
+    }
+
+    ul>li {
+        width: 82vw;
+    }
+}
